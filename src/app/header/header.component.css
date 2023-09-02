@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 224, 186);
+    height: 90vh;
+}
+
+.banner img{
+    object-fit: contain;
+}
+
+.heading {
+    font-size: 1.1rem;
+    /* margin: 4em 1em; */
+    color: rgb(255, 66, 33);
+}
