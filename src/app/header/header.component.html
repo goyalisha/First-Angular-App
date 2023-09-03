@@ -1,8 +1,16 @@
 <div class="header">
     <div class="banner">
-        <img src="../../assets/angular.jpg" alt="angular" height="290px" width="370px">
+        <img [src]="source" alt="angular" height="290px" width="370px">
     </div>
     <div class="heading">
-        <h2>First step towards Mastery of Angular!</h2>
+        <!-- String Interpolation -->
+        <!-- Properties -->
+        <h2>{{ heading }}</h2> 
+
+        <!-- Can do Arithmetic Operation as well -->
+        <!-- <h2>{{ 12 + 45 - 29 }}</h2> -->
+
+        <!-- Methods -->
+        <!-- <h2>{{ getHeading() }}</h2> -->
     </div>
 </div>
